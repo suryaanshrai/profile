@@ -61,7 +61,8 @@ h2 {
   }
 
   .dropdown-content a {
-    padding:3px
+    padding:3px;
+    display:block;
   }
 
 .dropdown-content a: {}
