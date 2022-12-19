@@ -11,10 +11,11 @@
     color:red;
     display:flex;
     flex-wrap:wrap;
-    margin-left:auto;
+    /* margin-left:auto;
     margin-right:auto;
     margin-top:1cm;
-    margin-bottom:1cm;
+    margin-bottom:1cm; */
+    margin:1cm 1cm 1cm 1cm;
     min-height:4cm;
     min-width:3cm;
     padding:.2cm;
