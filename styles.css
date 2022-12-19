@@ -20,13 +20,13 @@
     padding:.2cm;
 }
 
-.p{
+p{
 
 }
 
 h1{
-    margin-bottom:1cm;
     color:blue;
+    margin-bottom:1cm;
 }
 body{
     background-color:#ffd7e9
