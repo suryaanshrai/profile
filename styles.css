@@ -1,3 +1,18 @@
+.cardsContainer{
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+h2 {
+    background-color:#faf8f6;
+    border-left:3px solid #808080;
+    color:#808080;
+    font-size:35px;
+    margin:.5cm;
+    padding:.5cm;
+}
+
 #intro{
     color:red;
     display:block;
@@ -6,11 +21,7 @@
     margin-left:auto;
     margin-right:auto;
 }
-.cardsContainer{
-    text-align:center;
-    display:flex;
-    flex-wrap:wrap;
-}
+
 .mycard{
     align:center;
     background-color:#f6f5f3;
@@ -30,33 +41,15 @@
 }
 
 
-h2 {
-    background-color:#faf8f6;
-    border-left:3px solid #808080;
-    color:#808080;
-    font-size:35px;
-    margin:.5cm;
-    padding:.5cm;
-}
-
-@media (max-width:  600px){
-    #namaste{
-        max-width:100%;
-        height:auto;
-    }
-}
 
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+    padding: 5px;
   }
 
   .dropdown {
     position: relative;
     display: inline-block;
+    border:none;
   }
 
   .dropdown-content {
@@ -64,17 +57,20 @@ h2 {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
 
   .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    padding:3px
   }
 
-  .dropdown-content a: {background-color: #ddd;}
-  .dropdown: .dropdown-content {display: block;}
-  .dropdown: .dropbtn {background-color: #3e8e41;}
+.dropdown-content a: {}
+.dropdown: .dropdown-content {display: block;}
+.dropdown: .dropbtn {}
+
+ @media (max-width:  600px){
+    #namaste{
+        max-width:100%;
+        height:auto;
+    }
+}
