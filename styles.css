@@ -1,4 +1,7 @@
-.bigtext
+.bigText{
+    font-size:25px;
+    color:red;
+}
 .cardsContainer{
     text-align:center;
     display:flex;
