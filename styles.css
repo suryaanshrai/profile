@@ -38,3 +38,9 @@ h2 {
     margin:.5cm;
     padding:.5cm;
 }
+
+@media (max-width:  500px){
+    #namaste{
+        max-width:screen;
+    }
+}
