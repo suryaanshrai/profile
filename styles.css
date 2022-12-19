@@ -1,6 +1,6 @@
 #intro{
     font-family:Lucida Handwriting;
-    font-size:25px;
+    font-size:40px;
     color:red;
 }
 .cardsContainer{
@@ -10,8 +10,8 @@
 }
 .card{
     align:center;
-    background-color:#E5E4E2;
-    border: 1px solid #C0C0C0;
+    background-color:#f6f5f3;
+    border: 1px solid #d3d3d3;
     border-radius:10px;
     color:red;
 
@@ -24,4 +24,10 @@
     min-height:4cm;
     min-width:3cm;
     padding:.2cm;
+}
+
+
+h2 {
+    margin:1cm;
+    font-size:35px;
 }
