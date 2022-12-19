@@ -44,12 +44,12 @@ h2 {
 
 .dropbtn {
     padding: 5px;
+    border:none;
   }
 
   .dropdown {
     position: relative;
     display: inline-block;
-    border:none;
   }
 
   .dropdown-content {
