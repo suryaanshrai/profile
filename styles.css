@@ -41,7 +41,17 @@ h2 {
 }
 
 
+@media (max-width:  600px){
+    #namaste{
+        max-width:100%;
+        height:auto;
+    }
+}
 
+/*contact button*/
+#top{
+    text-align:right;
+}
 .dropbtn {
     padding: 5px;
     border:none;
@@ -67,11 +77,4 @@ h2 {
 
 .dropdown-content a:hover {}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown: .dropbtn {}
-
- @media (max-width:  600px){
-    #namaste{
-        max-width:100%;
-        height:auto;
-    }
-}
+.dropdown:hover .dropbtn {}
