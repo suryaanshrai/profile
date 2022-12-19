@@ -39,7 +39,7 @@ h2 {
     padding:.5cm;
 }
 
-@media (max-width:  500px){
+@media (max-width:  600px){
     #namaste{
         max-width:100%;
         height:auto;
