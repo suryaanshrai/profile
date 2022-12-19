@@ -28,6 +28,10 @@
 
 
 h2 {
-    margin:1cm;
+    background-color:#faf8f6;
+    border-left:3px solid #808080;
+    color:#808080;
     font-size:35px;
+    margin:.5cm;
+    padding:.5cm;
 }
