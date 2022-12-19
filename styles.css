@@ -65,8 +65,8 @@ h2 {
     display:block;
   }
 
-.dropdown-content a: {}
-.dropdown: .dropdown-content {display: block;}
+.dropdown-content a:hover {}
+.dropdown:hover .dropdown-content {display: block;}
 .dropdown: .dropbtn {}
 
  @media (max-width:  600px){
