@@ -27,6 +27,24 @@ h3 {
     margin-right:auto;
 }
 
+.myButton{
+    background-color:#b0b0b0;
+    border:none;
+    border-radius:5px;
+    color:black;
+    padding:6px;
+    margin:5px;
+
+    transition: background-color 1s;
+    transition: color 1s;
+}
+
+.myButton:hover{
+    outline:2px solid #40E0D0;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
 .mycard{
     align:center;
     background-color:#f6f5f3;
@@ -46,6 +64,14 @@ h3 {
     min-width:3cm;
     max-width:7cm;
     padding:.2cm;
+
+    box-shadow:;
+    transition:box-shadow .7s;
+
+}
+
+.mycard:hover{
+    box-shadow:2px 2px 10px 10px #888888;
 }
 
 
@@ -62,9 +88,17 @@ h3 {
     border-radius:30px;
     padding:15px 1px;
     width:5cm;
+
+    box-shadow:;
+    transition:box-shadow .7s;
+}
+
+#contacts:hover{
+    box-shadow:2px 2px 10px 10px #888888;
 }
 
 .contButton{
     width:.7cm;
     margin:.1cm;
+    outline:0px black;
 }
